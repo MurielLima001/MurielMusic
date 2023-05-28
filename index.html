@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muriel Music</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body> 
+
+    <img class='foto' src="logo.png" alt='logo'>
+
+  <div id="music-player">
+    <div id="player-image">
+      <img src="caminho_para_imagem.jpg" alt="Capa da Música">
+    </div>
+    <div id="player-controls">
+      <div class="center-row">
+        <button id="previous-button"><span class="symbol">⏮️</span></button>
+        <button id="play-pause-button"><span class="symbol">▶️</span></button>
+        <button id="next-button"><span class="symbol">⏭️</span></button>
+        <button id="loop-button"><span class="symbol">🔁</span></button>
+      </div>
+      <div class="center-row">
+        <button id="seek-backward-button">10s</button>
+        <button id="like-button"><span class="symbol">❤️</span></button>
+        <button id="seek-forward-button">10s</button>
+      </div>
+    </div>
+    <div id="player-progress">
+      <span id="current-time">00:00</span>
+      <progress id="progress-bar" value="0" max="100"></progress>
+      <span id="duration">00:00</span>
+    </div>
+  </div>
+
+  
+  <script src="modificacao.js"></script>
+
+      
+</body>
+</html>

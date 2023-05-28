@@ -1,0 +1,144 @@
+body {
+    background: url("fundo.jpg");
+  
+}
+
+#player-controls button#like-button {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#player-controls button#like-button .symbol {
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: -9px;
+}
+
+
+#player-controls {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#player-controls button {
+  border-radius: 15px;
+  background-color: none;
+  margin: 6px;
+  transition: transform 0.3s ease-in-out;
+  background-color: rgba(10, 10, 10, 0.829);
+  color: rgb(209, 207, 207);
+  height: 40px;
+}
+
+#player-controls .symbol {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+#player-controls button#like-button {
+  width: 60px;
+}
+
+#player-controls button#like-button .symbol {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+  #music-player {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+    #player-image {
+    position: relative;
+    width: 100%;
+  }
+  
+  #player-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+
+  
+  
+  #player-controls {
+    margin-top: 20px;
+  }
+  
+  #player-controls button {
+    border-radius: 10px;
+    background-color: none;
+    margin: 7px;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(49, 48, 48, 0.63);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  #player-controls button:hover {
+    transform: scale(1.1);
+  }
+  
+  #player-controls button:active {
+    transform: scale(0.9);
+  }
+  
+  #player-controls button#play-pause-button {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #player-controls button#play-pause-button:hover {
+    background-color: #0f0f0f;
+  }
+  
+  #player-controls button#like-button.liked {
+    color: red;
+  }
+  
+  #player-controls button#loop-button {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #player-controls button#loop-button.active {
+    transform: rotate(90deg);
+  }
+  
+  #player-progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  #player-progress span {
+    margin: 0 10px;
+  }
+ 
+  .foto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+    height: 30%;
+  }
+ 
